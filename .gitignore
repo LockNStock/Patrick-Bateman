@@ -1,0 +1,27 @@
+# Log files
+*.log
+trading_assets/*.log
+
+# Environment/Secrets config
+.env
+email_config.json
+trading_assets/email_config.json
+
+# IDE settings
+.vscode/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# macOS files
+.DS_Store
+Thumbs.db
+handover.md
